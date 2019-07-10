@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".InsertActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient CheckUp"
+                android:textSize="50sp"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="@color/colorPrimary">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textColorHint="@color/colorPrimary"
+                    >
+
+
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:textColorHint="@color/colorPrimary">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:textColorHint="@color/colorPrimary">
+
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:textColorHint="@color/colorPrimary">
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:focusable="true"
+                                    android:focusableInTouchMode="true"
+                                    android:textColorHint="@color/colorPrimary">
+
+                                    <EditText
+                                        android:id="@+id/etDescription"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Description"
+                                        android:ems="10"
+                                        android:inputType="text"
+                                        android:textSize="20sp"
+                                        android:layout_marginTop="5dp" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <EditText
+                                    android:id="@+id/etPrescription"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Prescription"
+                                    android:ems="10"
+                                    android:inputType="text"
+                                    android:textSize="20sp"
+                                    android:layout_marginTop="5dp"/>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <Button android:id="@+id/btnAdd"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:text="Add"
+                                        android:textSize="20sp"
+                                        android:textColor="#ffffff"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/button_rounded"/>
+                                    <Button android:id="@+id/btn_exit"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:text="Exit"
+                                        android:textSize="20sp"
+                                        android:textColor="#ffffff"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/button_rounded"
+                                        android:layout_toRightOf="@+id/btnAdd"/>
+
+
+                                </RelativeLayout>
+
+                            </android.support.design.widget.TextInputLayout>
+                            <EditText
+                                android:id="@+id/etBloodPressure"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Blood Pressure"
+                                android:ems="10"
+                                android:inputType="text"
+                                android:textSize="20sp"
+                                android:layout_marginTop="5dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                        <EditText
+                            android:id="@+id/etSugar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Sugar Level"
+                            android:ems="10"
+                            android:inputType="text"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <EditText
+                        android:id="@+id/etCholestrol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Cholestrol"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textSize="20sp"
+                        android:layout_marginTop="5dp"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <EditText
+                    android:id="@+id/etBMI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="BMI"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="20sp"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
