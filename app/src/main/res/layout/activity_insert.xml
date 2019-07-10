@@ -19,6 +19,7 @@
                 android:layout_height="wrap_content"
                 android:text="Patient CheckUp"
                 android:textSize="50sp"
+                android:layout_marginLeft="60dp"
                 />
 
             <android.support.design.widget.TextInputLayout
@@ -101,10 +102,10 @@
                                         android:layout_marginTop="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:background="@drawable/button_rounded"/>
-                                    <Button android:id="@+id/btn_exit"
+                                    <Button android:id="@+id/btnBack"
                                         android:layout_width="150dp"
                                         android:layout_height="wrap_content"
-                                        android:text="Exit"
+                                        android:text="Back"
                                         android:textSize="20sp"
                                         android:textColor="#ffffff"
                                         android:layout_marginTop="10dp"
